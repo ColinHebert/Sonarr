@@ -283,7 +283,7 @@ HistoryRow.propTypes = {
   languageCutoffNotMet: PropTypes.bool.isRequired,
   quality: PropTypes.object.isRequired,
   customFormats: PropTypes.arrayOf(PropTypes.object),
-  customFormatSSore: PropTypes.number.isRequired,
+  customFormatScore: PropTypes.number.isRequired,
   qualityCutoffNotMet: PropTypes.bool.isRequired,
   eventType: PropTypes.string.isRequired,
   sourceTitle: PropTypes.string.isRequired,
